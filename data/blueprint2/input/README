@@ -1,0 +1,19 @@
+This directory should contain the following items:
+
+- idat/ directory
+  contains raw illumina .idat files
+  obtained from:  https://ega-archive.org/datasets/EGAD00010001025
+  located under:  605 Files (5.8 GB)
+  exact address:  Needs an account and access request
+
+- samplekey.csv file
+  contains meta information about samples
+  obtained from:  authors of the original dataset
+  located under:  provided in this repository
+  exact address:  data/blueprint2/input/samplekey.csv
+
+- HM450.hg38.mask.tsv file
+  contains masking information for illumina array probes
+  obtained from:  https://zwdzwd.github.io/InfiniumAnnotation
+  located under:  Mask information > Previous Versions > HM450
+  exact address:  https://github.com/zhou-lab/InfiniumAnnotationV1/raw/main/Anno/HM450/archive/202209/HM450.hg38.mask.tsv.gz
