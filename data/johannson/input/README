@@ -1,0 +1,19 @@
+This directory should contain the following items:
+
+- idat/ directory
+  contains raw illumina .idat files
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87571
+  located under:  Supplementary file > GSE87571_RAW.tar > (http)
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE87571&format=file
+
+- GSE87571.txt file
+  contains meta information about samples
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87571
+  located under:  Scope: Samples > Format: SOFT > Amount: Brief > GO
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87571&targ=gsm&form=text&view=brief
+
+- HM450.hg38.mask.tsv file
+  contains masking information for illumina array probes
+  obtained from:  https://zwdzwd.github.io/InfiniumAnnotation
+  located under:  Mask information > Previous Versions > HM450
+  exact address:  https://github.com/zhou-lab/InfiniumAnnotationV1/raw/main/Anno/HM450/archive/202209/HM450.hg38.mask.tsv.gz
