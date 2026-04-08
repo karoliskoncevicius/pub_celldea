@@ -2,8 +2,8 @@
 
 suppressPackageStartupMessages(library(inops))
 
-res <- read.delim("input/ewascatalog-results.txt")
-std <- read.delim("input/ewascatalog-studies.txt")
+res <- read.delim("EWAScatalog/ewascatalog-results.txt")
+std <- read.delim("EWAScatalog/ewascatalog-studies.txt")
 
 
 #--- clean ---------------------------------------------------------------------

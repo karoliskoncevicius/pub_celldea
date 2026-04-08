@@ -6,7 +6,7 @@ library(matrixTests)
 suppressPackageStartupMessages(library(inops))
 
 dfage <- readRDS("diffage_cgs_hannon.rds")
-ewas  <- readRDS("EWAScatalog/ewascatalog_brain.rds")
+ewas  <- readRDS("ewascatalog_brain.rds")
 
 
 #--- filter --------------------------------------------------------------------

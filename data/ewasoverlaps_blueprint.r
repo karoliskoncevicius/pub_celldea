@@ -4,7 +4,7 @@ library(kklibrary)
 suppressPackageStartupMessages(library(inops))
 
 dfage <- readRDS("diffage_cgs_blueprint.rds")
-ewas  <- readRDS("EWAScatalog/ewascatalog_blood.rds")
+ewas  <- readRDS("ewascatalog_blood.rds")
 
 
 #--- filter --------------------------------------------------------------------
