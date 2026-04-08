@@ -20,7 +20,7 @@ prop <- rowSums(C[,c("CD4T", "CD8T", "NK")])
 
 cg <- "cg10501210"
 
-cols <- c("mediumvioletred", "darkgray", "dodgerblue3")[cut(prop, c(0, 0.2, 0.32, 1))]
+cols <- c("mediumvioletred", "darkgray", "dodgerblue3")[cut(prop, c(0, 0.2, 0.3, 1))]
 
 pdf("fig_6_cd.pdf", width = 14/2.54, height = 4/2.54, pointsize = 8)
 
@@ -29,7 +29,7 @@ par(mfrow = c(1,4), mar = c(3,3,3,0), oma = c(0,0,0,1), tck = -0.02, mgp = c(2,0
 vals <- X[cg,] * 100
 plot(X$age, vals, col = cols, cex = 0.5, xlab = "Age (years)", ylab = "", xaxt = "n", yaxt = "n", xlim = c(20,100), ylim = c(30,100))
 axis(1, at = seq(20,100,20))
-axis(2, at = c(20,30,40,50,60))
+axis(2, at = c(20,30,40,50,60,70,80,90,100))
 for(cl in unique(cols)) {
   abline(lm(vals ~ X$age, subset = cols == cl), col = cl)
 }

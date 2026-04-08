@@ -41,15 +41,15 @@ perc[5] <- mean((dfage$category == "cell-dea")[rownames(dfage) %in% rownames(cen
 perc[6] <- mean((dfage$category == "cell-dea")[rownames(dfage) %in% rownames(cent12CT450k.m)], na.rm = TRUE) * 100
 perc[7] <- mean((dfage$category == "cell-dea")[rownames(dfage) %in% rownames(centUniLIFE.m)], na.rm = TRUE) * 100
 
-pval[2] <- fisher.test(table(dfage$category == "cell-dea", rownames(dfage) %in% rownames(minfi6)))$p.value
-pval[1] <- fisher.test(table(dfage$category == "cell-dea", rownames(dfage) %in% rownames(minfi12)))$p.value
+pval[1] <- fisher.test(table(dfage$category == "cell-dea", rownames(dfage) %in% rownames(minfi6)))$p.value
+pval[2] <- fisher.test(table(dfage$category == "cell-dea", rownames(dfage) %in% rownames(minfi12)))$p.value
 pval[3] <- fisher.test(table(dfage$category == "cell-dea", rownames(dfage) %in% IDOLOptimizedCpGs450klegacy))$p.value
 pval[4] <- fisher.test(table(dfage$category == "cell-dea", rownames(dfage) %in% IDOLOptimizedCpGsBloodExtended450k))$p.value
 pval[5] <- fisher.test(table(dfage$category == "cell-dea", rownames(dfage) %in% rownames(centDHSbloodDMC.m)))$p.value
 pval[6] <- fisher.test(table(dfage$category == "cell-dea", rownames(dfage) %in% rownames(cent12CT450k.m)))$p.value
 pval[7] <- fisher.test(table(dfage$category == "cell-dea", rownames(dfage) %in% rownames(centUniLIFE.m)))$p.value
 
-names(perc) <- c("Minfi-6", "Minfi-12", "IDOL-6", "IDOL-12", "EpidISH-7", "EpiDISH-12", "EpiDISH-19")
+names(perc) <- c("Minfi-6", "Minfi-12", "IDOL-6", "IDOL-12", "EpiDISH-7", "EpiDISH-12", "EpiDISH-19")
 
 
 par(mar = c(3,5.5,3,0))

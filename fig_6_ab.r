@@ -20,7 +20,7 @@ prop <- rowSums(C[,c("CD4T", "CD8T", "NK")])
 
 cg <- "cg18263572"
 
-cols <- c("mediumvioletred", "darkgray", "dodgerblue3")[cut(prop, c(0, 0.2, 0.32, 1))]
+cols <- c("mediumvioletred", "darkgray", "dodgerblue3")[cut(prop, c(0, 0.2, 0.3, 1))]
 
 pdf("fig_6_ab.pdf", width = 14/2.54, height = 4/2.54, pointsize = 8)
 
