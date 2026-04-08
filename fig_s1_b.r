@@ -2,7 +2,7 @@
 
 library(kklibrary)
 
-dfage <- redo("data/diffage_cgs_rhead.rds")
+dfage <- readRDS("data/diffage_cgs_rhead.rds")
 
 
 #--- age direction overlaps ----------------------------------------------------
