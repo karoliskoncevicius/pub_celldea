@@ -1,0 +1,19 @@
+This directory should contain the following items:
+
+- idat/ directory
+  contains raw illumina .idat files
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998
+  located under:  Supplementary file > GSE167998_RAW.tar > (http)
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE167998_RAW&format=file
+
+- GSE167998.txt file
+  contains meta information about samples
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998
+  located under:  Scope: Samples > Format: SOFT > Amount: Brief > GO
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998&targ=gsm&form=text&view=brief
+
+- EPIC.hg38.mask.tsv file
+  contains masking information for illumina array probes
+  obtained from:  https://zwdzwd.github.io/InfiniumAnnotation
+  located under:  Mask information > Previous Versions > EPIC
+  exact address:  https://github.com/zhou-lab/InfiniumAnnotationV1/raw/main/Anno/EPIC/archive/202209/EPIC.hg38.mask.tsv.gz
