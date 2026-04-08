@@ -2,18 +2,18 @@ This directory should contain the following items:
 
 - idat/ directory
   contains raw illumina .idat files
-  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131989
-  located under:  Supplementary file > GSE131989_RAW.tar > (http)
-  exact address:  https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE131989&format=file
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315327
+  located under:  Supplementary file > GSE315327_RAW.tar > (http)
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE315327_RAW&format=file
 
-- GSE131989.txt file
+- GSE315327.txt file
   contains meta information about samples
-  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131989
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315327
   located under:  Scope: Samples > Format: SOFT > Amount: Brief > GO
-  exact address:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131989&targ=gsm&form=text&view=brief
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315327&targ=gsm&form=text&view=brief
 
-- HM450.hg38.mask.tsv file
+- EPICv2.hg38.mask.tsv file
   contains masking information for illumina array probes
   obtained from:  https://zwdzwd.github.io/InfiniumAnnotation
-  located under:  Mask information > Previous Versions > HM450
-  exact address:  https://github.com/zhou-lab/InfiniumAnnotationV1/raw/main/Anno/HM450/archive/202209/HM450.hg38.mask.tsv.gz
+  located under:  Mask information > EPICv2
+  exact address:  https://github.com/zhou-lab/InfiniumAnnotationV1/raw/main/Anno/EPICv2/EPICv2.hg38.mask.tsv.gz
