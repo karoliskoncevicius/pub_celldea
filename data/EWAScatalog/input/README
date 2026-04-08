@@ -11,3 +11,15 @@ This directory should contain the following items:
   obtained from:  https://www.ewascatalog.org/download/
   located under:  Download all results
   exact address:  https://www.ewascatalog.org/static//docs/ewascatalog-results.txt.gz
+
+- KEPI_A_2289786_SM2258.xls file
+  contains Crohn EWAS hits after adjustment for 12 immune cell types
+  obtained from:  https://www.tandfonline.com/doi/full/10.1080/15592294.2023.2289786
+  located under:  Supplemental material > Supplementary Table 1.xls
+  exact address:  https://www.tandfonline.com/doi/suppl/10.1080/15592294.2023.2289786/suppl_file/KEPI_A_2289786_SM2258.xls
+
+- 42003_2026_9520_MOESM4_ESM.xlsx file
+  contains interleukin-6 EWAS hits after adjustment for 12 immune cell types
+  obtained from:  https://www.nature.com/articles/s42003-026-09520-2
+  located under:  Supplementary information > Supplementary Data 1 to 20 (download XLSX)
+  exact address:  https://static-content.springer.com/esm/art%3A10.1038%2Fs42003-026-09520-2/MediaObjects/42003_2026_9520_MOESM4_ESM.xlsx
