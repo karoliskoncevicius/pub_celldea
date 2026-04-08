@@ -1,0 +1,62 @@
+This directory should contain the following items:
+
+- GSE80417.txt file
+  contains meta information about samples
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80417
+  located under:  Scope: Samples > Format: SOFT > Amount: Brief > GO
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80417&targ=gsm&form=text&view=brief
+
+- GSE80417_normalizedBetas.csv file
+  contains preprocessed beta values
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80417
+  located under:  Supplementary file > GSE80417_normalizedBetas.csv.gz > (http)
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE80417&format=file&file=GSE80417%5FnormalizedBetas%2Ecsv%2Egz
+
+- GSE84727.txt file
+  contains meta information about samples
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84727
+  located under:  Scope: Samples > Format: SOFT > Amount: Brief > GO
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84727&targ=gsm&form=text&view=brief
+
+- GSE84727_normalizedBetas file
+  contains preprocessed beta values
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84727
+  located under:  Supplementary file > GSE84727_normalizedBetas.csv.gz > (http)
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE84727&format=file&file=GSE84727%5FnormalisedBetas%2Ecsv%2Egz
+
+- GSE147221.txt file
+  contains meta information about samples
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147221
+  located under:  Scope: Samples > Format: SOFT > Amount: Brief > GO
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147221&targ=gsm&form=text&view=brief
+
+- GSE147221_Dublin_blood_processed_signals.csv file
+  contains preprocessed beta values
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147221
+  located under:  Supplementary file > GSE147221_Dublin_blood_processed_signals.csv.gz > (http)
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE147221&format=file&file=GSE147221%5FDublin%5Fblood%5Fprocessed%5Fsignals%2Ecsv%2Egz
+
+- GSE152026.txt file
+  contains meta information about samples
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152026
+  located under:  Scope: Samples > Format: SOFT > Amount: Brief > GO
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152026&targ=gsm&form=text&view=brief
+
+- GSE152026_EUGEI_processed_signals.csv file
+  contains preprocessed beta values
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152026
+  located under:  Supplementary file > GSE152026_EUGEI_processed_signals.csv.gz > (http)
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE152026&format=file&file=GSE152026%5FEUGEI%5Fprocessed%5Fsignals%2Ecsv%2Egz
+
+- GSE152027.txt file
+  contains meta information about samples
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152027
+  located under:  Scope: Samples > Format: SOFT > Amount: Brief > GO
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152027&targ=gsm&form=text&view=brief
+
+- GSE152027_IOP_processed_signals.csv file
+  contains preprocessed beta values
+  obtained from:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152027
+  located under:  Supplementary file > GSE152027_IOP_processed_signals.csv.gz > (http)
+  exact address:  https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE152027&format=file&file=GSE152027%5FIOP%5Fprocessed%5Fsignals%2Ecsv%2Egz
+
