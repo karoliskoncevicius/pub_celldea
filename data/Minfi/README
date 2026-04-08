@@ -1,0 +1,13 @@
+This directory should contain the following items:
+
+- minfi_6ct.csv
+  contains cytosine panel used for 6-cell-type deconvolutoin calculated by minfi
+  obtained from:  extracted manually after running minfi cell count estimation on the blueprint dataset
+  located under:  provided in this repository
+  exact address:  data/Minfi/minfi_6ct.csv
+
+- minfi_12ct.csv
+  contains cytosine panel used for 12-cell-type deconvolutoin calculated by minfi
+  obtained from:  extracted manually after running minfi cell count estimation on the blueprint dataset
+  located under:  provided in this repository
+  exact address:  data/Minfi/minfi_12ct.csv
