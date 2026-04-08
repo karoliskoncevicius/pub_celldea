@@ -18,3 +18,8 @@ This directory should contain the following items:
   located under:  Supplementary information > Table S1
   exact address:  https://doi.org/10.1371/journal.pone.0063812.s005
 
+- ewas_alz.csv file
+  contains neuritic amyloid plaque burder EWAS hits
+  obtained from:  https://pmc.ncbi.nlm.nih.gov/articles/PMC4292795/
+  located under:  Supplementary material > NIHMS614693-supplement-supp_tables_and_figs.doc > Supplementary Table 2 > manually extracted into csv file
+  exact address:  data/EWAS/ewas_alz.csv
