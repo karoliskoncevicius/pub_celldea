@@ -4,14 +4,14 @@ library(annmatrix)
 library(basetheme)
 library(kklibrary)
 library(EpiDISH)
-library(DEAfree)
 
 X <- readRDS("data/koncevicius/3_annmatrix.rds")
+C <- readRDS("data/koncevicius/cellcountsepidish.rds")
 
 
 #--- get cell proportions ------------------------------------------------------
 
-C <- epidish(X, centDEAfree12CT.m)$estF * 100
+C <- C[colnames(X),] * 100
 
 
 #--- plot ----------------------------------------------------------------------
@@ -36,7 +36,7 @@ plot_cor <- function(pur1, pur2, col, ylim = c(0,100)) {
   legend("topleft", legend = txt, text.col = "red2", bty = "n", inset = c(-0.075,0))
 }
 
-pdf("fig_s10.pdf", width = 10/2.54, height = 13/2.54, pointsize = 8)
+pdf("fig_s11.pdf", width = 10/2.54, height = 13/2.54, pointsize = 8)
 
 par(mfrow = c(4,3), mar = c(3,4,2,0), oma = c(0,0,0,1), tck = -0.02, mgp = c(2,0.5,0), las = 1)
 
@@ -46,7 +46,7 @@ plot_purity(X$age[inds], X$purity[inds], cell2col("neu"), ylim = c(90,100))
 title("Cytometry", line = 0.5)
 
 plot_purity(X$age[inds], C[inds,"neu"], cell2col("neu"), ylim = c(90,100))
-title("DEA-free", line = 0.5)
+title("EpiDISH-12", line = 0.5)
 
 plot_cor(X$purity[inds], C[inds,"neu"], cell2col("neu"), ylim = c(90,100))
 title("Correlation", line = 0.5)
