@@ -1,0 +1,13 @@
+This directory should contain the following items:
+
+- ewascatalog-studies.txt file
+  contains metadata table from EWAS catalog
+  obtained from:  https://www.ewascatalog.org/download/
+  located under:  Download all meta-data
+  exact address:  https://www.ewascatalog.org/static//docs/ewascatalog-studies.txt.gz
+
+- ewascatalog-results.txt file
+  contains results table from EWAS catalog
+  obtained from:  https://www.ewascatalog.org/download/
+  located under:  Download all results
+  exact address:  https://www.ewascatalog.org/static//docs/ewascatalog-results.txt.gz
