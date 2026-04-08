@@ -1,4 +1,4 @@
-#!/usr/bin/env Rscript
+#--- init ----------------------------------------------------------------------
 
 library(annmatrix)
 suppressPackageStartupMessages(library(inops))
